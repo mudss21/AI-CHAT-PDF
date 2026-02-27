@@ -1,0 +1,51 @@
+{
+  "build": "hf547dac_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [
+    "llvm-openmp 17.0.6",
+    "clang 17.0.6",
+    "llvm 17.0.6",
+    "llvm-tools 17.0.6"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libcxx-17.0.6-hf547dac_3",
+  "files": [
+    "lib/libc++.1.0.dylib",
+    "lib/libc++.1.dylib"
+  ],
+  "fn": "libcxx-17.0.6-hf547dac_3.conda",
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libcxx-17.0.6-hf547dac_3",
+    "type": 1
+  },
+  "md5": "8d50598a2beafd333243c505a8c080e4",
+  "name": "libcxx",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libcxx-17.0.6-hf547dac_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libc++.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "dbde23ec7d2617d96efb26a637318b65faa6af7f96ce3768136be9bd3c3c1c73",
+        "sha256_in_prefix": "dbde23ec7d2617d96efb26a637318b65faa6af7f96ce3768136be9bd3c3c1c73",
+        "size_in_bytes": 1048216
+      },
+      {
+        "_path": "lib/libc++.1.dylib",
+        "path_type": "softlink",
+        "sha256": "dbde23ec7d2617d96efb26a637318b65faa6af7f96ce3768136be9bd3c3c1c73",
+        "size_in_bytes": 1048216
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9d11219d3a1e98686c7af8904dec8f19c88806f2126d8b7a201323c7551a993c",
+  "size": 334002,
+  "subdir": "osx-64",
+  "timestamp": 1750279243000,
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libcxx-17.0.6-hf547dac_3.conda",
+  "version": "17.0.6"
+}
